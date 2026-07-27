@@ -10,23 +10,6 @@ crash.*.log
 *.tfvars
 *.tfvars.json
 
-# Override files
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-
-# Lock file (keep if working in a team)
-.terraform.lock.hcl
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
 info
 
 
