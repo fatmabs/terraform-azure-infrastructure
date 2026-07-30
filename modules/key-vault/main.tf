@@ -1,9 +1,7 @@
 data "azurerm_client_config" "current" {}
 
 
-resource "random_id" "randomness" {
-  byte_length = 3
-}
+
 
 resource "azurerm_key_vault" "this" {
   name                        = "${var.environment}-${var.name_prefix}-kv-${random_id.randomness.hex}"
